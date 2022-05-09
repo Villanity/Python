@@ -10,7 +10,7 @@
 # num1 = int(input("please input a number: ")) # ask user to input a number
 # print(sumdigits(num1)) # print the sum
 
-# another way to calculate the sum of the digits using list slicing
+# another way to calculate the sum of the digits using string slicing
 
 def sumdigits(num): # function to sum the digits of a number
     sum = 0 # initialize the sum
