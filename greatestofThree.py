@@ -10,11 +10,11 @@
 #          max_num = c
 #     return max_num
 
-first_num = int(input("Enter the First Number: "))
-second_num = int(input("Enter the Second Number: "))
-third_num = int(input("Enter the Third Number: "))
+first_num = int(input("Enter the First Number: ")) # ask user to input the first number
+second_num = int(input("Enter the Second Number: ")) # ask user to input the second number
+third_num = int(input("Enter the Third Number: ")) # ask user to input the third number
 
-print(max(first_num, second_num, third_num))
+print(max(first_num, second_num, third_num)) # print the greatest number
 
 # print(greatestThree(first_num, second_num, third_num))
 

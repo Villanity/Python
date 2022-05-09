@@ -8,10 +8,10 @@
 #         max_num = b 
 #     return max_num
 
-first_num = int(input("Enter the First Number: "))
-second_num = int(input("Enter the Second Number: "))
+first_num = int(input("Enter the First Number: ")) # ask user to input the first number
+second_num = int(input("Enter the Second Number: ")) # ask user to input the second number
 
-print(max(first_num, second_num))
+print(max(first_num, second_num)) # print the greatest number
 
 # print(greatestTwo(first_num, second_num))
 
