@@ -4,7 +4,7 @@ def armstrongNumber(num): # function to check if a number is armstrong number
     sum = 0 # initialize the sum
     num = str(num) # convert the number to a string
     for i in num: # for loop to iterate through the string
-        sum += int(i) ** 3 # add the number to the sum
+        sum += int(i) ** len(num) # add the number to the sum
     if sum == int(num): # if the sum is equal to the number
         print("Armstrong Number") # print the message
     else: # if the sum is not equal to the number
