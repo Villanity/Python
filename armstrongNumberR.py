@@ -8,10 +8,10 @@ def armstrongNumber(a, b): # function to check if a number is armstrong number
         for j in i: # for loop to iterate through the string
             sum += int(j) ** len(i) # add the number to the sum
         if sum == int(i): # if the sum is equal to the number
-            listarm.append(i) # add the number to the list
+            listarm.append(int(i)) # add the number to the list
         sum = 0 # reset the sum
-    print(listarm) # print the list
+    return listarm # print the list
 
-num1 = int(input("Please enter first number: ")) # ask user to input a number
-num2 = int(input("Please enter second number: ")) # ask user to input a number
-armstrongNumber(num1, num2) # check if the number is armstrong number
+# num1 = int(input("Please enter first number: ")) # ask user to input a number
+# num2 = int(input("Please enter second number: ")) # ask user to input a number
+# armstrongNumber(num1, num2) # check if the number is armstrong number
